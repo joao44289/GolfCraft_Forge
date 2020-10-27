@@ -4,12 +4,15 @@ import com.jo.golfcraft.Golfcraft;
 import com.jo.golfcraft.Items.ItemBase;
 import com.jo.golfcraft.blocks.BlockItemBase;
 import com.jo.golfcraft.blocks.GolfBallBlock;
+import com.jo.golfcraft.blocks.GolfHoleBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+
+import java.rmi.registry.Registry;
 
 public class RegistryHandler {
 
@@ -27,7 +30,9 @@ public class RegistryHandler {
 
     //Blocks
     public static final RegistryObject<Block> GOLF_BALL_BLOCK = BLOCKS.register("golf_ball_block", GolfBallBlock::new);
+    public static final RegistryObject<Block> GOLF_HOLE_BLOCK = BLOCKS.register("golf_hole_block", GolfHoleBlock::new);
 
     //Blocks Items
     public static final RegistryObject<Item> GOLF_BALL_BLOCK_ITEM = ITEMS.register("golf_ball_block", ()-> new BlockItemBase(GOLF_BALL_BLOCK.get()));
+    public static final RegistryObject<Item> GOLF_HOLE_BLOCK_ITEM = ITEMS.register("golf_hole_block", ()-> new BlockItemBase(GOLF_HOLE_BLOCK.get()));
 }

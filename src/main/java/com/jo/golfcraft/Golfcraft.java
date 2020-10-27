@@ -3,7 +3,6 @@ package com.jo.golfcraft;
 import com.jo.golfcraft.util.RegistryHandler;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;

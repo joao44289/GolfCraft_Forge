@@ -2,6 +2,7 @@
   "item.golfcraft.golf_ball": "Golf Ball",
   "item.golfcraft.golf_club": "Golf Club",
   "block.golfcraft.golf_ball_block": "Golf Ball",
+  "block.golfcraft.golf_hole_block": "Golf Hole",
   "itemGroup.GolfCraft": "GolfCraft"
 
 }

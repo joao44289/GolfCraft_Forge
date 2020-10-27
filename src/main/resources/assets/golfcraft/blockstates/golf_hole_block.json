@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "golfcraft:block/golf_hole_block"
+    }
+  }
+}
